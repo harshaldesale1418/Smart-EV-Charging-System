@@ -1,0 +1,12 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 653547960330-b2a6lvjdts7fisutm7smbncdlhfgbjdn.apps.googleusercontent.com
+            client-secret: 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
+            redirect-uri: "https://smart-ev.projects.bbdgrad.com/login/oauth2/code/google"
+            scope:
+              -profile
+              -email
