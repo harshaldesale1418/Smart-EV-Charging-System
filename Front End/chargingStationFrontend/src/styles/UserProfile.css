@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 2%;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 5%;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2%;
+  color: #007bff;
+}
+
+.profile-info {
+  margin-bottom: 4%;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 4%;
+}
+
+.profile-info p {
+  margin: 1% 0;
+}
+
+.edit-profile-btn {
+  display: block;
+  width: 30%;
+  padding: 3%;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-align: center;
+  text-decoration: none;
+}
+
+.edit-profile-btn:hover {
+  background-color: #0056b3;
+}

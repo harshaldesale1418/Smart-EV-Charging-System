@@ -1,0 +1,87 @@
+.container {
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.chargeslotscontainer{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.charginslotcard{
+  width: 30%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  margin: 10px;
+}
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+  color: black;
+  align-items: center;
+}
+
+.datepicker {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.datepicker h2 {
+  margin-right: 10px;
+}
+
+.datepicker input[type="date"],
+.datepicker button {
+  padding: 8px 12px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.timeslot {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.timeslot .card {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+  flex: 0 0 calc(30% - 20px);
+  max-width: calc(33.333% - 20px); 
+}
+
+.timeslot .card:hover {
+  background-color: #e0e0e0; 
+}
+.timeslot .card.selected {
+  background-color: #007bff; 
+  color: #fff;
+}
+.booking-button {
+  display: block;
+  margin: 20px auto; 
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff; 
+  color: #fff; 
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer;
+}
+
+.booking-button:hover {
+  background-color: #0056b3; 
+}
